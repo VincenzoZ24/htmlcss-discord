@@ -74,6 +74,13 @@ a{
     padding: 30px;
     
 }
+.presentazione-foto-destra{
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightgray;
+    padding: 30px;
+    
+}
 .foto-presentazione{
     width: 100%;
     display: flex;
