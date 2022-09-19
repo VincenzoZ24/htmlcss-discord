@@ -3,7 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    height: 100vh;
+    
+}
+.container{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+}
 .container-navbar{
     background-color: rgb(48, 91, 190);
     padding: 10px;
