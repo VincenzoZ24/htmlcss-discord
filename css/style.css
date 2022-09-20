@@ -50,11 +50,13 @@ a{
 
 .button , .button-accedi{
     padding:1rem;
-    border-radius: 10rem;   
+    border-radius: 10rem; 
+    border-style: none;  
 }
 .button-nero{
     background-color: black;
     color: white;
+    margin-left: 1rem;
 }
 .paragrafo-header{
     text-align: center;
@@ -106,4 +108,26 @@ a{
 }
 .titolo-intestazione{
     margin-bottom: 2rem;
+}
+.pre-footer{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    padding: 2rem 1rem 2rem;    
+}
+.pre-footer h2{
+    padding: 1rem;
+}
+.pre-footer img{
+    width: 100%;
+}
+.contain-pre-footer{
+    background-color: lightgray;
+}
+.pre-footer h3{
+    padding-left: 2em;
+    padding: 2rem;
+    background-image: url("../img/stars.svg");
+    background-position:top;
+    background-size: contain;
 }
