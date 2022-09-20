@@ -28,7 +28,7 @@ body{
 
 }
 .logo{
-    flex-grow: 2;
+    /* flex-grow: 2; */
 }
 .info{
     display: flex;
@@ -38,7 +38,7 @@ body{
 }
 .accedi{
     display: flex;
-    flex-grow: 2;
+    /* flex-grow: 2; */
     justify-content: flex-end;
        
 }
@@ -48,9 +48,13 @@ a{
     margin: 0.5rem;    
 }
 
-.button-accedi{
-    padding:3px;
-    border-radius: 15px;   
+.button , .button-accedi{
+    padding:1rem;
+    border-radius: 10rem;   
+}
+.button-nero{
+    background-color: black;
+    color: white;
 }
 .paragrafo-header{
     text-align: center;
@@ -58,9 +62,10 @@ a{
     padding-bottom: 100px;
     width: 800px;
     margin: auto;
-    
-    
     color: white;
+}
+.paragrafo-header button{
+    margin-top: 1rem;
 }
 .titolo-header{
     margin-bottom: 1rem;
