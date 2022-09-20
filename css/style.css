@@ -12,7 +12,7 @@ body{
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
-    height: 500px;
+    /* height: 500px; */
     width: 100%;
 }
 .container-navbar{
@@ -55,17 +55,21 @@ a{
 .paragrafo-header{
     text-align: center;
     padding-top: 100px;
-    width: 30%;
+    padding-bottom: 100px;
+    width: 800px;
     margin: auto;
+    
+    
     color: white;
 }
 .titolo-header{
     margin-bottom: 1rem;
 }
 /* inizio css main  */
-.main-container{
+.section-container{
     display: flex;
     justify-content: center;
+    
 }
 .presentazione-foto-sinistra{
     display: flex;
