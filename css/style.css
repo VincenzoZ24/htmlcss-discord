@@ -119,16 +119,47 @@ a{
 }
 .pre-footer h3{
     padding-left: 2em;
-    padding: 2rem;
+    padding: 1rem;
     background-image: url("../img/stars.svg");
     background-position:top;
     background-size: contain;
 }
 .button-blue{
-    background-color: rgb(29, 99, 198);
+    background-color: rgb(83, 86, 226);
     color: white;
+}
+.footer-list h3{
+    color: rgb(83, 86, 226);
 }
 .bandiera{
     font-size: 2rem;
     vertical-align: middle;
+}
+footer{
+    padding: 3rem;
+    background-color: rgba(31, 31, 31, 0.93);
+}
+
+.lista{
+    list-style: none;
+    
+}
+.info-lista{
+    color: rgb(83, 86, 226);
+    margin-bottom: 0.5rem;
+    
+}
+li{
+    color: white;
+}
+.container-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    border-bottom: 1px solid  rgb(83, 86, 226);
+}
+.logo-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
 }
