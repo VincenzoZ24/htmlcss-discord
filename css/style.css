@@ -128,3 +128,7 @@ a{
     background-color: rgb(29, 99, 198);
     color: white;
 }
+.bandiera{
+    font-size: 2rem;
+    vertical-align: middle;
+}
